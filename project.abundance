@@ -18,8 +18,8 @@
     {
       "atomType": "Rectangle",
       "name": "Rectangle",
-      "x": 0.4583586626139818,
-      "y": 0.44912280701754387,
+      "x": 0.45653495440729486,
+      "y": 0.42807017543859655,
       "uniqueID": "a870ecba-81ce-42de-8029-17c1e8998d7b",
       "ioValues": [
         {
@@ -51,13 +51,72 @@
     {
       "atomType": "Circle",
       "name": "Circle",
-      "x": 0.4990881458966565,
-      "y": 0.6263157894736842,
+      "x": 0.4978723404255319,
+      "y": 0.643859649122807,
       "uniqueID": "86855973-bccd-4c2b-b56b-c7f6358a04ce",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 10
+          "ioValue": 0.5,
+          "currentEquation": "0.5"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "name": "Move",
+      "x": 0.5990881458966565,
+      "y": 0.6263157894736842,
+      "uniqueID": "8a441937-595e-4243-b963-c372807429e3",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "name": "Rotate",
+      "x": 0.6996960486322189,
+      "y": 0.6385964912280702,
+      "uniqueID": "01dc2937-2323-47d5-881e-cde3a46a73d6",
+      "ioValues": [
+        {
+          "name": "x-axis degrees",
+          "ioValue": 90,
+          "currentEquation": "90"
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "name": "Extrude",
+      "x": 0.7951367781155015,
+      "y": 0.6614035087719298,
+      "uniqueID": "ce9b83b2-fbb5-4b4e-9593-149f3c719601",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 96,
+          "currentEquation": "96"
         }
       ]
     }
@@ -68,10 +127,34 @@
       "ap2Name": "geometry",
       "ap1ID": "a870ecba-81ce-42de-8029-17c1e8998d7b",
       "ap2ID": "3bc52c2b-31e7-4f55-b48c-102ed0470ce2"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "86855973-bccd-4c2b-b56b-c7f6358a04ce",
+      "ap2ID": "8a441937-595e-4243-b963-c372807429e3"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "8a441937-595e-4243-b963-c372807429e3",
+      "ap2ID": "01dc2937-2323-47d5-881e-cde3a46a73d6"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "01dc2937-2323-47d5-881e-cde3a46a73d6",
+      "ap2ID": "ce9b83b2-fbb5-4b4e-9593-149f3c719601"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "number or geometry",
+      "ap1ID": "ce9b83b2-fbb5-4b4e-9593-149f3c719601",
+      "ap2ID": "e7e92fc7-980e-437e-97d7-f21b90181dea"
     }
   ],
   "unitsKey": "Inches",
   "fileTypeVersion": 1,
-  "compiledBom": {},
+  "compiledBom": [],
   "filetypeVersion": 1
 }
