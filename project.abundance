@@ -1,15 +1,57 @@
 {
-    "atomType": "Molecule",
-    "name": "Test",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "f594cca0-7c82-4895-b381-63c95e801a1f",
-    "ioValues": [],
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "Inches",
-    "fileTypeVersion": 1,
-    "compiledBom": {},
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "name": "Test",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "f594cca0-7c82-4895-b381-63c95e801a1f",
+  "ioValues": [],
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "name": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "e7e92fc7-980e-437e-97d7-f21b90181dea",
+      "ioValues": []
+    },
+    {
+      "atomType": "Rectangle",
+      "name": "Rectangle",
+      "x": 0.4583586626139818,
+      "y": 0.44912280701754387,
+      "uniqueID": "a870ecba-81ce-42de-8029-17c1e8998d7b",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 96,
+          "currentEquation": "96"
+        },
+        {
+          "name": "y length",
+          "ioValue": 48,
+          "currentEquation": "48"
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "name": "Extrude",
+      "x": 0.5993920972644377,
+      "y": 0.4087719298245614,
+      "uniqueID": "3bc52c2b-31e7-4f55-b48c-102ed0470ce2",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 0.71875,
+          "currentEquation": "0.71875"
+        }
+      ]
+    }
+  ],
+  "allConnectors": [],
+  "unitsKey": "Inches",
+  "fileTypeVersion": 1,
+  "compiledBom": {},
+  "filetypeVersion": 1
 }
