@@ -24,13 +24,11 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 96,
-          "currentEquation": "96"
+          "ioValue": 96
         },
         {
           "name": "y length",
-          "ioValue": 48,
-          "currentEquation": "48"
+          "ioValue": 48
         }
       ]
     },
@@ -43,8 +41,7 @@
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 0.71875,
-          "currentEquation": "0.71875"
+          "ioValue": 0.71875
         }
       ]
     },
@@ -57,8 +54,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 0.5,
-          "currentEquation": "0.5"
+          "ioValue": 0.5
         }
       ]
     },
@@ -92,13 +88,11 @@
       "ioValues": [
         {
           "name": "x-axis degrees",
-          "ioValue": 90,
-          "currentEquation": "90"
+          "ioValue": 90
         },
         {
           "name": "y-axis degrees",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "z-axis degrees",
@@ -115,8 +109,7 @@
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 96,
-          "currentEquation": "96"
+          "ioValue": 96
         }
       ]
     }
